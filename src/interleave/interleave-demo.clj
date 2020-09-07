@@ -1,4 +1,4 @@
-(ns interleave-demo)
+(ns interleave.demo)
 
 ;; Mechanism to delay forms. Just wraps the form in a lambda
 (defmacro my-delay [& forms]
